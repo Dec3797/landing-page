@@ -3,6 +3,12 @@
     color: white;
 }
 
+.header-ribbon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .sub-header {
     display: flex;
     justify-content: space-between;
@@ -26,12 +32,13 @@
     width: 100px;
 }
 
-.header-links {
-    flex-direction: row;
-    display: flex;
-    justify-content: flex-end;
+a:link {
+    color: white;
 }
 
+a:visited {
+    color:white;
+}
 
 .footer {
     background-color: #1F2937;
