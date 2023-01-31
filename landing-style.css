@@ -1,1 +1,38 @@
-.header {background-color: #1F2937;}
+.header {
+    background-color: #1F2937;
+    color: white;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+    justify-content: space-evenly;
+    border: solid white 3px;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-button {
+    width: 100px;
+}
+
+.header-links {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.footer {
+    background-color: #1F2937;
+}
