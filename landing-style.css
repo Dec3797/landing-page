@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 18px;
 }
 
 .sub-header {
@@ -18,7 +19,6 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 400px;
     justify-content: space-evenly;
     border: solid white 3px;
     border-radius: 25px;
@@ -28,18 +28,107 @@
     align-items: center;
 }
 
-.sub-button {
-    width: 100px;
+.intro-header {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
-a:link {
+.intro-para {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-button {width: 100px;}
+
+a:link {color: white;}
+
+a:visited {color:white;}
+
+.timeline {display: flex;
+flex-direction: column;}
+
+.timeline-title {
+    display: flex;
+    align-self: center;
+}
+
+.photo-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: lightgrey solid 2px;
+    font-size: 20px;
+}
+
+.photo-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border: #1F2937 solid 2px;
+    font-size: 20px;
+}
+
+.photo-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: lightgrey solid 2px;
+    font-size: 20px;
+}
+
+.filler-content {
+    flex-direction: column;
+    display: flex;
+    background-color: lightgrey;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.filler-1 {
+    padding: 30px;
+}
+
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sub-box {
+    display: flex;
+    background-color: #3882f6;
+    width: 500px;
+    justify-content: space-around;
     color: white;
 }
 
-a:visited {
-    color:white;
+.bold-statement {
+    font-weight: bold;
+    font-size: 24px;
 }
+
+.unbold-statement {
+    font-size: 18px;
+}
+
+.sub-button {
+    height: 50px;
+    align-self: center;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #3882f6;
+    border-color: white;
+}
+
 
 .footer {
     background-color: #1F2937;
+    color: white;
+    font-size: 15px;
 }
